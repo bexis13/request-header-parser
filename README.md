@@ -1,6 +1,6 @@
 # RequestHeaderParser
 
-This repository is for the Free Code Camp Back End API [Request Header Parser Microservice project](https://www.freecodecamp.com/challenges/request-header-parser-microservice).
+This repository is for the Free Code Camp Back End API [Request Header Parser Microservice](https://www.freecodecamp.com/challenges/request-header-parser-microservice) project.
 
 It expose one endpoint ```/api/v1/whoami``` to retrieve information from the HTTP headers sent.
 
