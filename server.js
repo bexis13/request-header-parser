@@ -1,7 +1,10 @@
 var express = require("express");
 var app = express();
+var path = require("path");
 
 var port = 8080 || process.env.PORT;
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get("/api/whoami", function(request, response){
     var ipAddress = request.headers["x-forwarded-for"];

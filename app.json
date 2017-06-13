@@ -1,0 +1,6 @@
+{
+    "name": "request header parser",
+    "description": "a simple request header parser microservice",
+    "repository": "https://github.com/bexis13/request-header-parser",
+    "keywords": ["node","express", "static"]
+}
